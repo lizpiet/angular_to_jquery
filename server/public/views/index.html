@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MyFirstAngular">
+    <head>
+        <meta charset="UTF-8">
+        <script src="/vendor/jquery/dist/jquery.min.js"></script>
+        <script src="/vendor/angular/angular.min.js"></script>
+        <script src="/assets/scripts/app.min.js"></script>
+
+        <link href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="/assets/styles/styles.css" type="text/css">
+        <title></title>
+    </head>
+    <body ng-controller="MainController">
+
+    <div class="jumbotron">
+        <div class="container">
+            ...
+        </div>
+    </div>
+
+    <button ng-click="loadCandidates()">Candidates</button>
+        <ul>Democrats
+            <li ng-repeat="items in demList">
+                {{items}}
+            </li>
+        </ul>
+        <ul>Republicans
+            <li ng-repeat="items in repList">
+                {{items}}
+            </li>
+        </ul>
+        <button ng-click="electPresident()">Newly Generated President</button>
+            <p ng-show="winner">{{winner}}</p>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" type="text/javascript"></script>
+
+    </body>
+</html>

@@ -1,17 +1,17 @@
 var express = require('express');
 var app = express();
-var democrats = require("../models/democrats");
-var republicans = require("../models/republicans")
+var democrats = require("../models/democrats.json");
+var republicans = require("../models/republicans.json")
 
 app.get ('/', function(req, res){
     res.sendFile(__dirname + '/public/views/index.html');
 });
 
-app.get('/getrepublicans', function(req, res){
+app.get('/getRepublicans', function(req, res){
    res.send(republicans);
 });
 
-app.get('/getdemocrats', function(req, res){
+app.get('/getDemocrats', function(req, res){
     res.send(democrats);
 });
 

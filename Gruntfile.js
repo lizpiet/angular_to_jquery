@@ -16,8 +16,6 @@ module.exports = function(grunt) {
                 expand: true,
                 cwd: "node_modules/",
                 src: [
-                    "angular/angular.min.js",
-                    "angular/angular.min.js.map",
                     "jquery/dist/jquery.js",
                     "jquery/dist/jquery.min.js",
                     "jquery/dist/jquery.map.js",

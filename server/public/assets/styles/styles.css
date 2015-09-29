@@ -1,0 +1,59 @@
+
+
+ul{
+    font-family: georgia;
+    font-size: 35px;
+    font-weight: bold;
+    list-style: none;
+    display: block;
+    margin: auto;
+
+}
+
+.demParty {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serifl;
+    font-size: 22px;
+    color: blue;
+    line-height:40px ;
+    font-weight: normal;
+    list-style: none;
+    display: block;
+    margin: auto;
+}
+
+.repParty {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serifl;
+    font-size: 22px;
+    color: red;
+    font-weight: normal;
+    line-height:40px ;
+    list-style: none;
+    display: block;
+    margin: auto;
+}
+
+.repClass{
+    margin-right: 200px;
+    float:right;
+}
+.demClass{
+    margin-left: 200px;
+    float:left;
+}
+
+.winner{
+    margin-top: 355px;
+    text-align: center;
+    /*margin-bottom: 25px;*/
+
+}
+p{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serifl;
+    font-size: 22px;
+    color: purple;
+    font-weight: bold;
+    line-height:40px ;
+    list-style: none;
+    display: block;
+    margin: auto;
+}
